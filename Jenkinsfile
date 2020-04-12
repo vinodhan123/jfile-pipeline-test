@@ -21,18 +21,12 @@ pipeline {
 						echo "Hello again"
 						}
 					}
-			stage('four')
-				parallel {
-					stage('unit test 1') {
-						steps {
-							echo "parallel test1 runnig...."
-							}
-						}
-					stage('unit test2') {
-						steps {
-							echo "parallel test2 running..."
-								}
-						}
+			stage('four') {
+				steps {	
+					echo "test reached stage 4"
+
 					}
+				}
 		}
 	}
+					
