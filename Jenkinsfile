@@ -18,7 +18,7 @@ pipeline {
 							}
 						}
 					steps {
-						echo "Hello there vino"
+						echo "Hello there vino..."
 						}
 					}
 			stage('four') {
